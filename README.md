@@ -62,7 +62,7 @@ The next issue we seek to address is the generation of unwanted forcast graphs w
 
 ![image](https://github.com/user-attachments/assets/4bc88b6f-76b0-461d-bc4f-9cb01cae09e6)
 
-This bug can turn a report spanning 30 pages or less into one with multiple hundreds of pages, as the roll.win.rmse.wge function with spit out unwanted graph after unwanted graph. This can bury important data in-between dozens, even hundreds, of pages of meaningless graphs; or worse, the immense memory demands required for knitting such a needlessly large document could cause R to freeze or crash, wasting time and resources that could better be spent on other tasks. 
+This bug can turn a report spanning 30 pages or less into one with multiple hundreds of pages, as the roll.win.rmse.wge function will spit out unwanted graph after unwanted graph. This can bury important data in-between dozens, even hundreds, of pages of meaningless graphs; or worse, the immense memory demands required for knitting such a needlessly large document could cause R to freeze or crash, wasting time and resources that could better be spent on other tasks. 
 
 
 In this segment we exxplored several methods to address this bug without altering code in any subfunctions - which, again, could cause untoward errors in other functions. 
